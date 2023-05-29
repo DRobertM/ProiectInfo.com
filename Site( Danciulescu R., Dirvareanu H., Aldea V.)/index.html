@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <title>Pescaria "Peste mare"</title>
+    <link rel="stylesheet" href = "style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Chorasmian&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+</head>
+<body>
+<section class = "header">
+    <nav>
+        <a href="index.html"><img src="images/LOGO.jpg"></a>
+        <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="index.html">ACASA</a></li>
+                <li><a href="despre.html">DESPRE</a></li>
+                <li><a href="sfaturi.html">SFATURI</a></li>
+                <li><a href="blog.html">BLOG</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+            </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+    </nav>
+<div class = "text-box">
+    <h1>Un site pentru pasionatii de pescuit</h1>
+    <p>
+        Dintotdeauna omul a fost culegator, vânator si pescar. Supravietuirea speciei<br>
+        umane a fost conditionata în epoca primitiva de abilitatea de a-si asigura in permanenta hrana necesara. <br>
+        Pestele a fost si este o componenta importanta în alimentatia omului. Tehnica pescuitului a cunoscut progrese "pas cu pas" <br>
+         de la pescuitul cu mâna ,la ostie, cârlig, capcane (oboare) si plase. C.C.GIURASCU afirma in "Istoria pescuitului<br>
+        si pisciculturii in Romania" ( pag. 40 ) ".ca in epoca neolitica omul incepe sa foloseasca la pescuit plasa."<br>
+        Activitatea de a pescui nu este cea mai simpla sau usoara din lume, dar noi aici, o vom impartasi alaturi de alti pasionati.<br>
+    </p>
+    <a href = "sfaturi.html" class="hero-btn">Vizitati-ne pentru mai mult</a>
+</div>
+</section>
+<!----Sfaturi---->
+<!--<section class="sfaturi">
+    <h1>Sfaturi pe care vi le putem oferi</h1>
+    <p>Aici vom incerca sa va oferim sfaturi care v-ar putea ajuta in functie de nivelul vostru de experienta</p>
+    <div class="row">
+        <div class = "course-col">
+            <h3>Incepatori</h3>
+            <p>papapapapapapapaappaqpapapapapapapapapapap</p>
+        </div>
+        <div class = "course-col">
+            <h3>De nivel mediu</h3>
+            <p>papapapapapapapaapapapapapapapapapapapapap</p>
+        </div>
+        <div class = "course-col">
+            <h3>Experti</h3>
+            <p>papapapapapapapaapapapappapapapaapapapapap</p>
+        </div>
+    </div>
+</section> -->
+<!----campus---->
+<!--  <section class="campus">
+    <h1>Captura lunii</h1>
+    <p>Campura lunii aceasta ii apartine lui Marius<br>Daca doriti sa va apara captura voastra pe site timiteti-ne o poza adresa de mail din Contact</p>
+    <div class="row">
+        <div class="campus-col">
+            <img src="images/captura.jpg">
+            <div class="layer">
+                <h3>Adelin</h3>
+            </div>
+        <div class="campus-col">
+            <img src="images/captura2.jfif">
+            <div class="layer">
+                <h3>Marius</h3>
+            </div>
+        <div class="campus-col">
+            <img src="images/captura3.jpg">
+            <div class="layer">
+                <h3>Alex</h3>
+            </div>
+        </div>
+    </div>
+</section>  -->
+<script>
+    var navLinks = document.getElementById("nacLinks");
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function showMenu(){
+        navLinks.style.right = "-200px";
+    }
+</script>
+</body>
+</html>
