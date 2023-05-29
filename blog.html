@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <title>Pescaria "Peste mare"</title>
+    <link rel="stylesheet" href = "style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Chorasmian&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+</head>
+<body>
+<section class = "header">
+    <nav>
+        <a href="index.html"><img src="images/LOGO.jpg"></a>
+        <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="index.html">ACASA</a></li>
+                <li><a href="despre.html">DESPRE</a></li>
+                <li><a href="sfaturi.html">SFATURI</a></li>
+                <li><a href="blog.html">BLOG</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+            </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+    </nav>
+<div class = "text-box">
+    <h2>Cea mai mare captura a lunii</h2>
+    <p>
+        Captura lunii ii apartine lui Marius si este urmatoarea:
+    </p>
+    <img src="images/captura.jpg" class="center">
+    <p><br></p>
+    <a href = "sfaturi.html" class="hero-btn">Vizitati-ne pentru mai mult</a>
+</div>
+<script>
+    var navLinks = document.getElementById("nacLinks");
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function showMenu(){
+        navLinks.style.right = "-200px";
+    }
+</script>
+</body>
+</html>
